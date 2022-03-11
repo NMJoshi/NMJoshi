@@ -47,3 +47,7 @@ p {
 	padding-inline-start: 30px;
 	width: 700px;
 }
+.middle p {
+	font-size: 50px;
+	color: azure;
+}
