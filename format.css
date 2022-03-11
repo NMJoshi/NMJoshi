@@ -1,0 +1,31 @@
+body {
+	background-color: black;
+}
+h1 {
+	color: blue;
+}
+p {
+	color: red;
+}
+.header {
+	background-color: rgb(65, 250, 142);
+	border-radius: 20px;
+	min-height: 100px;
+}
+.header h2 {
+	color: blue;
+	padding-left: 30px;
+	padding-top: 35px;
+}
+.nevigation {
+	/* display: inline-block; */
+}
+.nevigation li {
+	display: inline-block;
+	padding-left: 15px;
+	font-size: medium;
+	font-weight: 600;
+}
+.middle-left h1 {
+	color: aqua;
+}
