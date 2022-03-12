@@ -2,12 +2,26 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="Viewport" content="width=device-width, initial scale=1.0"> -->
+    <meta name="Viewport" content="width=device-width, initial scale=1.0">
     <title>NMJ-Portfolio</title>
+    <!-- Linking Css -->
     <link rel="stylesheet" type="text/css" href="format.css">
+
+    <!-- adding Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+    <div class="upper-right">
+        <div class="intro">
+            <h3>Trust Me, I'm a</h3>
+            <h1 class="typing"></h1>
+        </div>
+    </div>
     <div class="page">
         <div class="left">
             <h2>WELCOME</h2>
@@ -17,19 +31,20 @@
                 <p>hi ! There welcome to my world fill free to wonder around and to contact me.</p>
             </div>
             <nav class="nevigation">
-                <ul>
-                    <li style="background-color: #6245bb;"><a href="index.html">Home</a></li>
-                    <li><a href="./artical.html">Artical</a></li>
-                    <li><a href="./Portfolio.html">Portfolio</a></li>
-                </ul>
+                <button type="button" onclick="home()">Home</button>
+                <button type="button" onclick="artical()">Artical</button>
+                <button type="button" onclick="portfolio()">Portfolio</button>
             </nav>
         </div>
         <div class="right">
-            <div class="upper-right">
-                <h1>Here goes img</h1>
-            </div>
+            <!-- <div class="upper-right">
+                <div class="intro">
+                    <h3>Trust Me, I'm a</h3>
+                    <h1 class="typing"></h1>
+                </div>
+            </div> -->
 
-            <div class="middle">
+            <div class="home" id="home">
                 <h1>Programmer as a profession</h1>
                 <p class="objective"> Seeking employment in a professional environment where I can diversify and improve
                     upon the skills
@@ -37,8 +52,20 @@
                     reputation while improving my own.</p>
                 <p>Under Construction! Comming Soon...</p>
             </div>
+            <div class="artical" id="artical">
+                <h1>Articals</h1>
+                <p>First artical</p>
+                <p>Under Construction! Comming Soon...</p>
+            </div>
+            <div class="portfolio" id="portfolio">
+                <h1>Portfolio</h1>
+                <p>Hey! there</p>
+                <p>Under Construction! Comming Soon...</p>
+            </div>
+
         </div>
     </div>
+    <script type="text/javascript" src="javascript.js"></script>
 </body>
 
 </html>
