@@ -1,22 +1,28 @@
 function home() {
 	// document.getElementById('home').style.display = 'none';
 	// alert('hello');
+	document.getElementById('upper-right').style.display = 'block';
 	document.getElementById('home').style.display = 'block';
+	document.getElementById('down-right').style.margin = '0px';
 	document.getElementById('artical').style.display = 'none';
 	document.getElementById('portfolio').style.display = 'none';
 }
 function artical() {
 	// document.getElementById('home').style.display = 'none';
 	// alert('hello');
+	document.getElementById('upper-right').style.display = 'none';
 	document.getElementById('home').style.display = 'none';
 	document.getElementById('artical').style.display = 'block';
+	document.getElementById('down-right').style.margin = '82 0 0 0px';
 	document.getElementById('portfolio').style.display = 'none';
 }
 function portfolio() {
 	// document.getElementById('home').style.display = 'none';
 	// alert('hello');
+	document.getElementById('upper-right').style.display = 'none';
 	document.getElementById('home').style.display = 'none';
 	document.getElementById('artical').style.display = 'none';
+	document.getElementById('down-right').style.margin = '82 0 0 0px';
 	document.getElementById('portfolio').style.display = 'block';
 }
 
