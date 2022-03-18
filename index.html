@@ -19,29 +19,42 @@
     <div class="page">
         <div class="header">
             <div class="name">
+                <img class="logo" src="./Asset/nj_logo.png" alt="logo">
                 <h1>Nisarg Joshi</h1>
             </div>
-            <nav class="nevigation">
+            <!-- <nav class="nevigation">
                 <button type="button" onclick="home()">Home</button>
                 <button type="button" onclick="artical()">Artical</button>
-                <button type="button" onclick="portfolio()">Portfolio</button>
+                <button type="button" onclick="project()">Project</button>
                 <button type="button" onclick="portfolio()">About Me</button>
-            </nav>
+            </nav> -->
         </div>
         <div class="center">
             <div class="left">
-                <h2>WELCOME</h2>
+                <!-- <h2>WELCOME</h2> -->
                 <div class="card">
-                    <img class="logo" src="./nj_logo.jpg" alt="logo">
-                    <h3>Nisarg Joshi</h3>
-                    <p>hi ! There welcome to my world fill free to wonder around and to contact me.</p>
+                    <img src="Asset/dp.jpg" alt="mail">
+                    <!-- <img class="logo" src="./Asset/nj_logo.png" alt="logo"> -->
+                    <!-- <h3>Nisarg Joshi</h3> -->
+                    <!-- <p>hi ! There welcome to my world fill free to wonder around and to contact me.</p> -->
                 </div>
+
+                <nav class="nevigation">
+                    <button type="button" onclick="home()">Home</button>
+                    <button type="button" onclick="artical()">Artical</button>
+                    <button type="button" onclick="project()">Project</button>
+                    <button type="button" onclick="portfolio()">About Me</button>
+                </nav>
+
+
                 <div class="social">
                     <ul>
                         <li><a href="mailto:nisarg.joshi1000@outlook.com" target="_blank"><img src="Asset/mail.png"
                                     alt="mail"></a></li>
                         <li><a href="https://www.linkedin.com/in/nisargmjoshi/" target="_blank"><img
                                     src="Asset/linkedin.png" alt="linkedin"></a></li>
+                        <li><a href="https://github.com/NMJoshi" target="_blank"><img src="./Asset/github.png"
+                                    alt="Github"></a></li>
                         <li><a href="https://telegram.me/nmjoshi" target="_blank"><img src="Asset/telegram.png"
                                     alt="telegram"></a></li>
                         <li><a href="https://www.instagram.com/n_mjoshi/" target="_blank"><img src="Asset/instagram.png"
@@ -58,23 +71,37 @@
                 </div>
                 <div class="down-right" id="down-right">
                     <div class="home" id="home">
-                        <h1>Programmer as a profession</h1>
-                        <p class="objective"> Seeking employment in a professional environment where I can diversify and
+                        <h1 class="main-heading">Programmer as a profession</h1>
+                        <p id="content"> Seeking employment in a professional environment where I can diversify and
                             improve
                             upon the skills
                             gained during Study. As a techie, I would focus on enhancing the company's productivity and
                             reputation while improving my own.</p>
-                        <p>Under Construction! Comming Soon...</p>
+    <!--Remove-->       <p class="remove">Under Construction! Comming Soon...</p>
                     </div>
                     <div class="artical" id="artical">
-                        <h1>Articals</h1>
-                        <p>First artical</p>
-                        <p>Under Construction! Comming Soon...</p>
+                        <h1 class="main-heading">Articals</h1>
+                        <p id="sub-heading">First artical</p>
+                        <p id="content">Under Construction! Comming Soon...</p>
                     </div>
-                    <div class="portfolio" id="portfolio">
-                        <h1>Portfolio</h1>
-                        <p>Hey! there</p>
-                        <p>Under Construction! Comming Soon...</p>
+                    <div class="project" id="project">
+                        <h1 class="main-heading">Projects</h1>
+                        <div class="proj">
+                            <div class="proj-head">
+                                <h2>Parking Locator</h2>
+                                <a href="" target="_blank"><img src="Asset/code.png" alt="Code"></a>
+                            </div>
+                            <p class="proj-descrip" id="content">It's an Andriod Application Developed to Book Parking Spots</p>
+                        </div>
+                        <div class="proj">
+                            <div class="proj-head">
+                                <h2>Movie Recommendation</h2>
+                                <a href="" target="_blank"><img src="Asset/code.png" alt="Code"></a>
+                            </div>
+                            <p class="proj-descrip" id="content">We built an Machine Learning Model to Recommend
+                                movie based on
+                                User's Rating</p>
+                        </div>
                     </div>
                 </div>
 
