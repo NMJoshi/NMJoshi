@@ -6,6 +6,7 @@ function home() {
 	document.getElementById('down-right').style.margin = '0px';
 	document.getElementById('artical').style.display = 'none';
 	document.getElementById('project').style.display = 'none';
+	document.getElementById('about').style.display = 'none';
 }
 function artical() {
 	// document.getElementById('home').style.display = 'none';
@@ -15,6 +16,7 @@ function artical() {
 	document.getElementById('artical').style.display = 'block';
 	document.getElementById('down-right').style.margin = '82 0 0 0px';
 	document.getElementById('project').style.display = 'none';
+	document.getElementById('about').style.display = 'none';
 }
 function project() {
 	// document.getElementById('home').style.display = 'none';
@@ -24,6 +26,14 @@ function project() {
 	document.getElementById('artical').style.display = 'none';
 	document.getElementById('down-right').style.margin = '82 0 0 0px';
 	document.getElementById('project').style.display = 'block';
+	document.getElementById('about').style.display = 'none';
+}
+function about() {
+	document.getElementById('upper-right').style.display = 'none';
+	document.getElementById('home').style.display = 'none';
+	document.getElementById('artical').style.display = 'none';
+	document.getElementById('down-right').style.margin = '82 0 0 0px';
+	document.getElementById('about').style.display = 'block';
 }
 
 /* -----------For Typing Animation-------------- */

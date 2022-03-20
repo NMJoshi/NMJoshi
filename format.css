@@ -2,11 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
 body {
-	background-color: #16161a;
-	margin: 10 30px;
-	background-color: #7e7e7e;
+	/* background-color: #1f68b2; */
 }
 .page {
 	border: 1px solid #2cb67d;
@@ -23,17 +22,11 @@ body {
 	height: 56px;
 	padding-top: 8px;
 	border-radius: 50%;
-	/* border: 3px solid rgba(255, 255, 255, 0.514); */
-	/* margin: 15 0px; */
-	/* margin-left: 52px; */
 }
 .header {
-	display: flex;
-	justify-content: space-between;
-	background-color: #303038;
+	/* background-color: #303038; */
 	border-bottom: 1px solid wheat;
-	/* border-radius: 15px; */
-	/* margin: 15px; */
+	background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0, 0.5), rgb(255, 255, 255, 0.5));
 }
 /* Left Side */
 .name h1 {
@@ -74,11 +67,10 @@ body {
 	display: flex;
 	justify-content: space-evenly;
 	margin-top: 5px;
-	/* align-items: center; */
 }
 /* Left Side */
 /* ------------------------- */
-.card img {
+.dp img {
 	width: 200px;
 	height: 200px;
 	border: 2px solid #2cb67d;
@@ -91,21 +83,8 @@ body {
 	font-size: 25px;
 }
 .left {
-	width: 250px;
-	/* border: 2px solid #2cb67d; */
 	border-radius: 7px;
 	margin: 10px;
-}
-
-.left p {
-	color: #94a1b2;
-	font-family: 'Source Code Pro', monospace;
-	margin: 10px;
-	text-transform: capitalize;
-	text-align: center;
-}
-.left:hover {
-	/* background-color: #000000; */
 }
 .social ul {
 	margin: 0px;
@@ -114,41 +93,37 @@ body {
 .social li {
 	list-style: none;
 	display: inline;
-	/* padding-left: 13px; */
-	/* background-color: #fffffe; */
 }
 .social li a {
-	/* border-radius: 50%; */
 	text-decoration: none;
 }
 .social img {
 	width: 25px;
 	height: 25px;
 	margin-left: 12px;
-	/* border-radius: 50%; */
 }
 .social img:hover {
-	/* background-color: black; */
-	border: 0.5px solid #2cb67d;
+	border: 1px solid #2cb67d;
 	border-radius: 50%;
 }
 /* Upper-right */
 .upper-right {
-	height: 200px;
+	height: auto;
 }
 /* -----For Typing Animation----- */
 .intro {
 	display: flex;
-	padding-top: 45px;
+	padding: 45 0 0 0px;
 	/* justify-content: center; */
-	font-size: 30px;
+	font-size: 2vw;
 	/* margin-left: 50vw; */
 }
 .intro h3 {
 	font-size: 14px;
+	padding-right: 5px;
 	color: #94a1b2;
 	font-family: 'Montserrat', sans-serif;
-	/* position: fixed; */
+	/* position: relative; */
 	/* margin-left: -23vw; */
 }
 .typing {
@@ -177,13 +152,19 @@ body {
 }
 /* For Down-right */
 .down-right {
-	/* border: 2px solid #ffffff; */
 	border-radius: 20px;
-	/* padding-inline-start: 30px; */
 }
-.down-right:hover {
-	/* background-color: #000000;
-	border: 2px solid #2cb67d; */
+.down-right h5 {
+	margin-bottom: 0px;
+	color: #94a1b2;
+	font-size: 20px;
+	font-weight: normal;
+}
+.down-right span {
+	color: #7f5af0;
+	padding-left: 10px;
+	font-size: 34px;
+	font-style: oblique;
 }
 .down-right h1 {
 	color: #ffffff;
@@ -197,12 +178,11 @@ body {
 	width: 50vw;
 	font-size: 20px;
 	font-family: 'Dosis', sans-serif;
-	/* text-transform: uppercase; */
 	word-spacing: 8px;
 	letter-spacing: 2px;
 	line-height: 2;
 }
-/*---- Page-Portfolio---- */
+/*---- Page-Project---- */
 .project {
 	display: none;
 	margin: 0;
@@ -223,21 +203,21 @@ body {
 }
 .proj-head h2 {
 	/* padding: auto; */
-	/* margin: 0px; */
+	margin: 0px;
 	color: #5bd6d6;
 }
 .proj img {
 	width: 25px;
 	height: 25px;
 	display: inline;
-	padding: 20 0 0 10px;
-}
-.proj-descip {
-	color: #ffffff;
+	padding: 0 0 0 10px;
 }
 .proj:hover {
 	border: 1px solid #2cb67d;
 	border-radius: 10px;
+}
+.proj-descrip {
+	margin: 0px;
 }
 /*---- Page-Artical ---- */
 .artical {
@@ -245,10 +225,34 @@ body {
 	margin: 0;
 }
 
+/* Page-About Me */
+.about {
+	display: none;
+	width: auto;
+	height: auto;
+}
 /* ----For Responsive---- */
-
-
+@media only screen and (max-width: 750px) {
+	.center {
+		flex-direction: column;
+	}
+	.left {
+		margin: auto;
+	}
+	.intro {
+		justify-content: center;
+	}
+	.down-right {
+		text-align: center;
+	}
+	#content {
+		width: auto;
+	}
+	.name {
+		margin: auto;
+	}
+}
 /* Remove These */
-.remove{
+.remove {
 	color: rgba(255, 0, 0, 0.5);
 }
