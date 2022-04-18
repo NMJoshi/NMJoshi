@@ -61,6 +61,10 @@ body {
 	color: #7f5af0;
 	border: 1px solid #2cb67d;
 }
+.nevigation button a{
+	text-decoration: none;
+	color: inherit;
+}
 /* ------------------------- */
 /* For Center */
 .center {
