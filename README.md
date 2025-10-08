@@ -46,9 +46,9 @@ Been coding for 3.5 years, building scalable systems that solve real business pr
 
 ## 📈 GitHub Stats
 
-![Nisarg's GitHub stats](https://github-readme-stats.vercel.app/api?username=nisargmjoshi&show_icons=true&theme=radical&hide_border=true)
+![Nisarg's GitHub stats](https://github-readme-stats.vercel.app/api?username=NMJoshi&show_icons=true&theme=radical&hide_border=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nisargmjoshi&layout=compact&theme=radical&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NMJoshi&layout=compact&theme=radical&hide_border=true)
 
 ---
 
